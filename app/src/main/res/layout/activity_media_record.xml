@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context="com.example.amelon.myapplication.FileActivity">
+
+    <Button
+        android:onClick="playrecorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_sendmsg"
+        android:layout_weight="8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:onClick="filerecord"
+        android:text="文件录音:" />
+
+
+    <TextView
+        android:id="@+id/tv_press_send"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:textSize="24sp"
+        android:textColor="#70ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="按下说话" />
+
+
+</LinearLayout>
